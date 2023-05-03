@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Engineer</members>
+		<members>Finance</members>
+		<members>HR</members>
+		<members>IT</members>
+		<members>Admin</members>
+		<name>Profile</name>
+	</types>
+	<!--
+	<types>
+		<members>Case.CaseAcceptedResponse</members>
+		<name>AutoResponseRule</name>
+	</types>
+	-->
+	<types>
+		<members>Support_Reps</members>
+		<name>DataCategoryGroup</name>
+	</types>
+	<types>
+		<members>Engineering_Lead</members>
+		<members>Finance</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>Certification__c</members>
+		<members>Certification_Required__c</members>
+		<members>Certification_Held__c</members>
+		<members>Payment_Receipt__c</members>
+		<members>Reimbursement__c</members>
+		<members>Work_Orderc__c</members>
+		<members>Product2</members>
+		<members>PriceBook2</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Certification__c</members>
+		<members>Certification_Required__c</members>
+		<members>Certification_Held__c</members>
+		<members>Payment_Receipt__c</members>
+		<members>Reimbursement__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Security</members>
+		<name>Settings</name>
+	</types>
+	<types>
+		<members>Case.Status</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Support_Tickets_Process_C47</members>
+		<members>Use_Case_C30</members>
+		<members>C35_Work_Order_Progress</members>
+		<name>FlexiPage</names>
+	</types>
+	<version>55.0</version>
+</Package>
+
+
+<!--sfdx force:source:retrieve -x./manifest/package.xml-->
